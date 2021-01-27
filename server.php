@@ -18,4 +18,4 @@ if ($uri !== '/' && file_exists(__DIR__.'/../public_html/dapp'.$uri)) {
     return false;
 }
 
-require_once __DIR__.'/../public_html/dapp/index.php';
+require_once __DIR__.'/../public_html/index.php';
