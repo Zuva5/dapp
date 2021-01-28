@@ -14,7 +14,7 @@ class ConfigServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('path.public', function() {
-            return realpath('../public_html');
+            return realpath('../public_html/dapp');
         });
     }
 
